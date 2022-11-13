@@ -1,0 +1,65 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+  background-color: #404EED;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&display=swap');
+
+#navbar {
+  display: flex;
+
+  margin: 20px 10px 30px 10px;
+  gap: 12rem;
+  justify-content: center;
+
+  background: transparent;
+}
+
+#navbar img {
+  max-width: 120px;
+  height: 100%;
+  margin: 5px;
+  filter: brightness(0) invert(1);
+  background: transparent;
+}
+
+.nav-list {
+  display: flex;
+
+  margin: 9px 5px 5px 5px;
+  padding: 0;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.open-button {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+
+  padding: 10px 14px 10px 14px;
+  border-radius: 50px;
+  font-size: 13px;
+}
+
+.intro-container {
+  background-image: url(/images/wp8481139-wumpus-discord-wallpapers.jpg);
+}
